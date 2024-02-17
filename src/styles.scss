@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import 'styles/variables.scss';
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: rgb(213,227,208);
+  background: linear-gradient(152deg, rgba(213,227,208,1) 0%, rgba(172,195,165,1) 39%, rgba(122,203,124,1) 100%);
+  backdrop-filter: blur(5px);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

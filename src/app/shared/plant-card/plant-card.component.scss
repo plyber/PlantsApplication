@@ -1,0 +1,64 @@
+:host {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 50%;
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .header {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+
+    .description {
+      margin-bottom: 2em;
+    }
+
+    .details {
+      .option {
+          margin-bottom: 1em;
+      }
+        .option-title {
+          font-weight: bold;
+        }
+      }
+  }
+}
+
+.button {
+  border-radius: 20px;
+  box-shadow: none;
+  padding: 1em 5em;
+  border: none;
+  color: white;
+  background: rgb(88,192,138);
+  background: linear-gradient(90deg, rgba(88,192,138,1) 0%, rgba(122,203,124,1) 100%);
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+img {
+  width: 15em;
+  height: 15em;
+  align-self: center;
+  margin: 1em 0;
+  border: 1px solid white;
+  border-radius: 15px;
+}
