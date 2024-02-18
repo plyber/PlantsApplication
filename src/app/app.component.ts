@@ -12,5 +12,4 @@ import { SideBarComponent } from "./core/side-bar/side-bar.component";
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'DesignProject';
 }
