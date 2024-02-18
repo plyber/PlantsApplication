@@ -40,20 +40,6 @@
   }
 }
 
-.button {
-  border-radius: 20px;
-  box-shadow: none;
-  padding: 1em 5em;
-  border: none;
-  color: white;
-  background: rgb(88,192,138);
-  background: linear-gradient(90deg, rgba(88,192,138,1) 0%, rgba(122,203,124,1) 100%);
-
-  &:hover {
-    cursor: pointer;
-  }
-}
-
 img {
   width: 15em;
   height: 15em;

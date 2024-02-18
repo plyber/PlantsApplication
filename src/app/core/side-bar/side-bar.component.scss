@@ -1,0 +1,22 @@
+.menu-container {
+  padding: 3em;
+  .list {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      white-space: nowrap;
+      margin-bottom: 1em;
+
+      &:hover {
+        cursor: pointer;
+        color: white;
+      }
+    }
+  }
+
+  .title {
+    margin-bottom: 1em;
+  }
+}
+
