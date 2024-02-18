@@ -1,0 +1,15 @@
+.search-bar {
+  background-color: white;
+  border-radius: 20px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background: none;
+  padding: 1em;
+
+  &:focus-visible {
+    outline: none;
+  }
+}
